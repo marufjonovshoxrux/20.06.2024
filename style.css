@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    padding: 12px 50px;
+    background: #656565;
+
+
+}
+
+.left,
+.right,
+.left nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.round {
+    width: 34px;
+    height: 34px;
+    background-color: #c4c4c4;
+    border-radius: 100%;
+}
+
+.round:last-child {
+    width: 57px;
+    height: 57px;
+}
+
+a {
+    text-decoration: none;
+    color: #F0F0F0;
+
+
+}
+
+.about {
+    color: black
+}
+
+
+
+.box {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    height: 100px;
+    border: 2px solid gray;
+    border-radius:10px;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box p {
+    padding-top: 5px;
+    font-size: 20px;
+    color: blue;
+}
+
+
+
+.box_2 {
+    margin-top: 30px;
+    width: 300px;
+    height: 140px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box_2 input{
+    margin-top: 10px;
+    width: 200px;
+    text-align: start;
+    height: 30px;
+    border: none;
+    background-color:#F0F0F0;
+    padding: 5px;
+}
+
+.box_2 h3 {
+    font-size: 23px;
+}
+
+.box_3 {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.img {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.text {
+    text-align: center;
+    background-color:black;
+}
+.box_3 h2 {
+
+    padding-top: 10px;
+    color:#FFFFFF;
+
+}
+.box_3 p {
+    color: #FFFFFF8F;
+    padding-top: 10px;
+
+}
+
+.box_3 button {
+    width: 170px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+    border-radius:10px;
+
+}
